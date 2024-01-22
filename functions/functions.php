@@ -1,7 +1,7 @@
 <?php
 
 
-$conn =mysqli_connect("localhost","root","","coffeeshop");
+$conn =mysqli_connect("localhost","root","","tari");
 
 
 function query($query){

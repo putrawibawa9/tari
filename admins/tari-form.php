@@ -24,13 +24,13 @@ if(isset($_POST['submit'])){
         echo "
             <script>
             alert('data berhasil diubah');
-            document.location.href = 'kopi.php';
+            document.location.href = 'tari.php';
             </script>
         ";
     }else{
         echo " <script>
         alert('data gagal diubah');
-        document.location.href = 'kopi.php';
+        document.location.href = 'tari.php';
         </script>
     ";
 
@@ -41,7 +41,7 @@ if(isset($_POST['submit'])){
 <div class="container">
   <div class="row">
     <div class="col-12 p-3 bg-white">
-        <h3>Edit Nama Kopi</h3>
+        <h3>Edit Tarian</h3>
 
 
         <form method="post" enctype="multipart/form-data">
@@ -60,24 +60,24 @@ if(isset($_POST['submit'])){
 
 
             <div class="mb-3">
-                <label class="form-label">Nama Kopi</label>
+                <label class="form-label">Nama Tarian</label>
                 <input type="text" name="nama_binatang" class="form-control" value="<?= $binatang['nama_binatang']?>">
             </div>
             
             
             <div class="mb-3">
-                <label class="form-label">Keterangan Kopi</label>
+                <label class="form-label">Keterangan Tarian</label>
             <textarea class="form-control" name="keterangan_binatang" rows="3" placeholder="Keterangan Binatang"  required><?= $binatang['keterangan_binatang']?></textarea>
             </div>
 
             <img src="../img/<?= $binatang['gambar'] ?>" width="100px" height="100px">
 
             <div class="mb-3">
-                <label for="gambar" class="form-label">Gambar Kopi</label>
+                <label for="gambar" class="form-label">Gambar Tarian</label>
                 <input type="file" name="gambar" class="form-control">
             </div>
 
-            <a href="kopi.php" class="btn btn-success" >Kembali</a>
+            <a href="tari.php" class="btn btn-success" >Kembali</a>
             <button type="submit" class="btn btn-primary" name="submit" >Simpan</button>
         </form>
     </div>

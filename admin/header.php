@@ -14,16 +14,16 @@
         <div class="col-12">
         <nav class="navbar navbar-expand-lg bg-white">
   <div class="container-fluid">
-    <a class="navbar-brand " href="http://localhost/CoffeeShop/public/index.php">Dashboard</a>
+    <a class="navbar-brand " href="http://localhost/Tari/public/index.php">Dashboard</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link menu-home" aria-current="page" href="http://localhost/CoffeeShop/admins/index.php">Home</a>
-        <a class="nav-link menu-category" href="http://localhost/CoffeeShop/admins/kategori.php">Kategori</a>
-        <a class="nav-link menu-binatang" href="http://localhost/CoffeeShop/admins/kopi.php">Kopi</a>
-        <a class="nav-link" href="http://localhost/CoffeeShop/admin/logout.php">logout</a>
+        <a class="nav-link menu-home" aria-current="page" href="http://localhost/Tari/admins/index.php">Home</a>
+        <a class="nav-link menu-category" href="http://localhost/Tari/admins/kategori.php">Kategori</a>
+        <a class="nav-link menu-binatang" href="http://localhost/Tari/admins/tari.php">Kopi</a>
+        <a class="nav-link" href="http://localhost/Tari/admin/logout.php">logout</a>
       </div>
     </div>
   </div>

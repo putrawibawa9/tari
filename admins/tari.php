@@ -15,14 +15,14 @@ $binatang = query("SELECT * FROM binatang JOIN kategori ON binatang.id_kategori 
     <div class="container">
       <div class="row">
         <div class="col-12 p-3 bg-white">
-          <h3>Kopi</h3>
-          <a href="kopi-tambah.php" class="btn btn-primary  mb-3">Add</a>
+          <h3>Tarian</h3>
+          <a href="tari-tambah.php" class="btn btn-primary  mb-3">Add</a>
           <table class="table table-bordered">
             <thead>
               <tr>
                 <th class="text-center">ID</th>
                     <th class="text-center">Kategori</th>
-                    <th class="text-center">Nama Kopi</th>
+                    <th class="text-center">Nama Tarian</th>
                     <th class="text-center">Keterangan</th>
                     <th class="text-center">Gambar</th>
                     <th class="text-center">Options</th>
@@ -38,7 +38,7 @@ $binatang = query("SELECT * FROM binatang JOIN kategori ON binatang.id_kategori 
                   <td ><?=$row['keterangan_binatang']?></td>
                   <td class="text-center" > <img src="../img/<?=$row['gambar']?>" width="100px"></td>
                    <td>
-                    <a  href="kopi-form.php?id_binatang=<?=$row['id_binatang'];?>" class="btn btn-warning btn-sm ">Edit</a>
+                    <a  href="tari-form.php?id_binatang=<?=$row['id_binatang'];?>" class="btn btn-warning btn-sm ">Edit</a>
                     <a href="binatang-delete.php?id_binatang=<?=$row['id_binatang'];?>" class="btn btn-danger btn-sm " onclick="return confirm('yakin?');">Delete</a>
                    </td>
                   </tr>
