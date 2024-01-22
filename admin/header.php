@@ -22,7 +22,7 @@
       <div class="navbar-nav">
         <a class="nav-link menu-home" aria-current="page" href="http://localhost/Tari/admins/index.php">Home</a>
         <a class="nav-link menu-category" href="http://localhost/Tari/admins/kategori.php">Kategori</a>
-        <a class="nav-link menu-binatang" href="http://localhost/Tari/admins/tari.php">Kopi</a>
+        <a class="nav-link menu-binatang" href="http://localhost/Tari/admins/tari.php">Tarian</a>
         <a class="nav-link" href="http://localhost/Tari/admin/logout.php">logout</a>
       </div>
     </div>
