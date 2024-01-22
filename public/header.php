@@ -33,7 +33,7 @@ $kategori = query("SELECT * FROM kategori");
 
                             <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle menu-binatang" href="#" id="binatang-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Tarian
+                                Wilayah
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="binatang-dropdown">
 

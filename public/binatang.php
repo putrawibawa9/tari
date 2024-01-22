@@ -38,7 +38,7 @@ $nama_kategori = query("SELECT nama_kategori FROM kategori WHERE id_kategori = $
 
             <div class="row">
                 <div class="col-12 p-5">
-                <h1 class="display-4 mt-3 mb-5"> Kategori - <?= $nama_kategori['nama_kategori']?></h1>
+                <h1 class="display-4 mt-3 mb-5"> Wilayah - <?= $nama_kategori['nama_kategori']?></h1>
                 
                 <div class="row">
                   <?php foreach($binatang as $row):?>
@@ -68,7 +68,7 @@ $nama_kategori = query("SELECT nama_kategori FROM kategori WHERE id_kategori = $
       <div class="modal-body">
         <img id="modal-img" class="img-fluid">
         <h3 class="text-center mt-2" id="modal-nama"></h3>
-                <div class="text-center mt-2"> Kategori <span id="modal-kategori" ></span></div>
+                <div class="text-center mt-2"> Wilayah <span id="modal-kategori" ></span></div>
 
                 <div class="text-center mt-2" id="modal-keterangan"></div>
       </div>
